@@ -11,17 +11,18 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url(background.jpg);
+  background-image: url(background.png);
   background-size: cover;
   background-position: center center;
   min-height: 100vh;
+  color: #fffafa;
 }
 
 h1 {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   font-size: 3rem;
-  margin-top: -10rem;
+  margin-top: -20rem;
 }
 
 .big-text {
@@ -36,6 +37,7 @@ h1 {
 .time-container {
   display: flex;
   text-align: center;
+  flex-wrap: wrap;
 }
 
 .time-container span {
